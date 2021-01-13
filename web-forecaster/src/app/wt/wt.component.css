@@ -1,0 +1,15 @@
+.bck{
+    background: url(/assets/wt_bg.jpg) no-repeat center;
+    min-height: 1000px;
+    background-size: cover;
+}
+
+@media(min-height:1300px){
+    .bck{
+        min-height: 1500px;
+    }
+}
+
+.dark-mode{
+    filter: invert(1) hue-rotate(180deg);
+}

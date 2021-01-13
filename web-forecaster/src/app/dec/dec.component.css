@@ -1,0 +1,11 @@
+.bck{
+    background: url(/assets/bcg.jpg) no-repeat center;
+    min-height: 700px;
+    background-size: cover;
+}
+
+@media(min-height:1100px){
+    .bck{
+        min-height: 1500px;
+    }
+}

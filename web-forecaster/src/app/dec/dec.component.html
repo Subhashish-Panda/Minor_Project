@@ -1,0 +1,47 @@
+<!-- Using bootstrap cards as a starter for our weather App -->
+<div class="bck img-fluid">
+<div class="container-fluid" style="padding-top: 14px;">
+    <div class="row">
+        <div class="col-md-6 offset-md-3" *ngIf="x==1">
+            <div class="card" style="background-color:rgba(0, 0, 0, 0.5)">
+            <div class="card-body">
+            <img src="assets/pic_1.jpg" class="img-fluid">
+            </div>
+            <div class="card-footer">
+            <p class="text-center text-warning" style="font-weight: 800;"><u>Welcome to Web-Forecaster!</u></p>
+            <p class="text-center" style="color: lavender;font-family: 'Times New Roman', Times, serif; font-size: 16px;">A web application that can give complete weather related information of your area, with a single touch.</p>
+            <button type="button" class="btn btn-outline-primary col-sm-4 offset-sm-4" (click)="change()">Proceed</button>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 offset-md-3" *ngIf="x==2">
+            <div class="card" style="background-color:rgba(0, 0, 0, 0.5)">
+            <div class="card-body">
+            <img src="assets/pic_2.jpg" class="img-fluid">
+            </div>
+            <div class="card-footer">
+            <p class="text-center text-warning" style="font-weight: 800;"><u>Architecture Used</u></p>
+            <p class="text-center" style="color: lavender;font-family: 'Times New Roman', Times, serif; font-size: 16px;">For designing the front-end <b>ANGULAR</b> framework was used and for back-end <b>FIREBASE</b> tool was used. 
+            To fetch the weather related information, <b>HERE SDK</b> was used.</p>
+            <button type="button" class="btn btn-outline-primary col-sm-4 offset-sm-4" (click)="change()">Proceed</button>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 offset-md-3" *ngIf="x==3">
+            <div class="card" style="background-color:rgba(0, 0, 0, 0.5)">
+            <div class="card-body">
+            <img src="assets/pic_3.jpg" class="img-fluid">
+            </div>
+            <div class="card-footer">
+            <p class="text-center text-warning" style="font-weight: 800;"><u>Developer details</u></p>
+            <p class="text-center" style="color: lavender;font-family: 'Times New Roman', Times, serif; font-size: 16px;">
+            <span style="font-weight: 600;">Designed by: </span>Subhashish-panda
+            <br><span style="font-weight: 600;">Regd No: </span>1702040025
+            <br><span style="font-weight: 600;">CSE | VSSUT,BURLA</span></p>
+            <a type="button" class="btn btn-outline-primary col-sm-4 offset-sm-4" routerLink="/weather">Get Started</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div> 
+</div>
