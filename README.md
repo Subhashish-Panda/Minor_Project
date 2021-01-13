@@ -20,3 +20,6 @@ information following steps were adopted:
 - Major part of the app UI was created using **BootStrap 4.5** , thus it is **highly responsive** on all sorts of devices.
 - This app also has a special dark mode integrated in it, to make the UI more beautiful.
 - Last but not the least it is secured, robust & very smooth for use.
+
+# Public URL
+https://web-forecaster-8db9c.web.app/
